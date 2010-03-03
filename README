@@ -1,4 +1,4 @@
 Installation:
 
 cd ~
-wget -qO- http://github.com/nbudin/home/tarball/master | tar xvz --exclude=README
+wget -qO- http://github.com/nbudin/home/tarball/master | tar xvz --strip-components=1 --exclude=README
